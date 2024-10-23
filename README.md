@@ -46,3 +46,35 @@ The project is a work in progress and is not yet complete.
 - [ ] User following
 - [ ] User feed (posts from users you follow)
 - [ ] User flair
+
+## (Required)
+
+🎯 Please mention the requirements you met and which goals you achieved for this assignment.
+🎯 Were there any requirements or goals that you were not quite able to achieve?
+🎯 If so, could you please tell us what was it that you found difficult about these tasks?
+
+## (Optional)
+
+🏹 Feel free to add any other reflections you would like to share about your submission e.g.
+
+What went really well and what could have gone better?
+Detailing useful external sources that helped you complete the assignment (e.g Youtube tutorials).
+Describing errors or bugs you encountered while completing your assignment.
+Requesting feedback about a specific part of your submission.
+
+## Fixes & Feature Requests (Stretch goals)
+
+- [x] Fix page titles on post pages to match the post title
+- [x] Handle the error when you click to vote while not logged in to show a nice error message
+- [ ] Try to make it so I can't vote more than once (Fix could be done in the SQL with the constraints (ideally), or in-app code to check the db before adding a new row to the votes table)
+- [ ] Users would like a richer editing experience we'd like to incorporate TipTap (based on Prosemirror)
+      TipTap introduction
+      TipTap Next.js setup guide
+- [ ] Users can vote an infinite number of times on the same post. We'd like to prevent this happening. It should be enforced at the Schema level with the UNIQUE constraint but it isn't working. We'd like you to try and fix this, either by correcting the schema (preferable) or if not by implementing the restriction in the application code when the user tries to upvote.
+
+## My Experience
+
+- I struggled to connect to Git, I had to try it a few different ways until it eventually worked
+- I then redid the project a few times becuase of it and undid some changes and confused myself
+- Then after deploying to Vercel I forgot to redeploy after changing my env variables.
+- oh and I didnt notice env.example _how embarrassing - crawls into hole and hides_
