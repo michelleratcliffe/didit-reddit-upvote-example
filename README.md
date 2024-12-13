@@ -72,9 +72,3 @@ Requesting feedback about a specific part of your submission.
       TipTap Next.js setup guide
 - [ ] Users can vote an infinite number of times on the same post. We'd like to prevent this happening. It should be enforced at the Schema level with the UNIQUE constraint but it isn't working. We'd like you to try and fix this, either by correcting the schema (preferable) or if not by implementing the restriction in the application code when the user tries to upvote.
 
-## My Experience
-
-- I struggled to connect to Git, I had to try it a few different ways until it eventually worked
-- I then redid the project a few times becuase of it and undid some changes and confused myself
-- Then after deploying to Vercel I forgot to redeploy after changing my env variables.
-- oh and I didnt notice env.example _how embarrassing - crawls into hole and hides_
